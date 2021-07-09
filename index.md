@@ -1,9 +1,9 @@
-﻿# Project Name/Title Goes Here
-This will serve as a brief description of your project. Limit this to three sentences because it can become overly long at that point. This copy should draw the user in and make she/him want to read more.
+﻿# Gesture Controlled Car with Accelerometer 
+Hello! My name is Praneet and at BSE this summer, I will be working on a gesture controlled car with the addition of an accelerometer. This car will be controlled by a robotic arm which will be linked to an ESP 32 microcontroller on the car that will function the L298N motor driver connected to 4 DC motors, each pertaining to a wheel.  
 
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
-| Firstname Lastname | Current Highschool | Electrical Engineering | Incoming Senior
+| Praneet Joshi | Irvington High School | Electrical and Computer Engineering | Incoming Junior
 
 ![Headstone Image](https://bluestampengineering.com/wp-content/uploads/2016/05/improve.jpg)
   
