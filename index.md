@@ -1,5 +1,5 @@
 ﻿# Gesture Controlled Car with Accelerometer 
-Hello! My name is Praneet and at BSE this summer, I will be working on a gesture controlled car with the addition of an accelerometer. This car will be controlled by a robotic arm which will be linked to an ESP 32 microcontroller that will function the L298N motor driver connected to 4 DC motors, each pertaining to a wheel.  
+Hello! My name is Praneet and at BSE this summer, I will be working on a gesture controlled car with the addition of an accelerometer. This car will be controlled by my arm which will be linked to an ESP 32 microcontroller that will function the L298N motor driver connected to 4 DC motors, each pertaining to a wheel.  
 
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
