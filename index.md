@@ -1,5 +1,5 @@
 ﻿# Gesture Controlled Car with Accelerometer 
-Hello! My name is Praneet and at BSE this summer, I will be working on a gesture controlled car with the addition of an accelerometer. This car will be controlled by my arm which will be linked to an ESP 32 microcontroller that will function the L298N motor driver connected to 4 DC motors, each pertaining to a wheel.  
+Hello! My name is Praneet and at BSE this summer, I will be working on a gesture controlled car with the addition of an accelerometer/gyroscope. This car will be controlled by my arm which will be linked to an ESP 32 microcontroller that will function the L298N motor driver connected to 4 DC motors, each pertaining to a wheel.  
 
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
@@ -13,7 +13,7 @@ My final milestone is the increased reliability and accuracy of my robot. I amel
 [![Final Milestone](https://res.cloudinary.com/marcomontalbano/image/upload/v1612573869/video_to_markdown/images/youtube--F7M7imOVGug-c05b58ac6eb4c4700831b2b3070cd403.jpg )](https://www.youtube.com/watch?v=F7M7imOVGug&feature=emb_logo "Final Milestone"){:target="_blank" rel="noopener"}
 
 # Second Milestone
-My final milestone is the increased reliability and accuracy of my robot. I ameliorated the sagging and fixed the reliability of the finger. As discussed in my second milestone, the arm sags because of weight. I put in a block of wood at the base to hold up the upper arm; this has reverberating positive effects throughout the arm. I also realized that the forearm was getting disconnected from the elbow servo’s horn because of the weight stress on the joint. Now, I make sure to constantly tighten the screws at that joint.
+My second milestone was soldering the MPU6050 accelerometer and connecting it with a second ESP 32 microcontroller to recieve readings based on gestures made in the x, y, and z axes. Since the accelerometer also had a 3-axis gyroscope built in it, I was able to obtain both the rotational velocity and the angle of tilt in the 3 axes. Upon getting readings in the serial monitor of the Arduino IDE, I changed the unit of "radians" to "degrees" as it was easier to find a range of values in degrees. Next, I found of a range of values that would make the car move forward and backwards (x), and also left and right (y). I plugged these values into my code to recieve readings such as: "Move Forward," "Move Left."  
 
 [![Third Milestone](https://res.cloudinary.com/marcomontalbano/image/upload/v1612574014/video_to_markdown/images/youtube--y3VAmNlER5Y-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://www.youtube.com/watch?v=y3VAmNlER5Y&feature=emb_logo "Second Milestone"){:target="_blank" rel="noopener"}
 # First Milestone
