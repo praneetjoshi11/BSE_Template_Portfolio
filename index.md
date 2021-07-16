@@ -15,7 +15,7 @@ My final milestone is the increased reliability and accuracy of my robot. I amel
 # Second Milestone
 My second milestone was soldering the MPU6050 accelerometer and connecting it with a second ESP 32 microcontroller to recieve readings based on gestures made in the x, y, and z axes. Since the accelerometer also had a 3-axis gyroscope built in it, I was able to obtain both the rotational velocity and the angle of tilt in the 3 axes. Upon getting readings in the serial monitor of the Arduino IDE, I changed the unit of "radians" to "degrees" as it was easier to find a range of values in degrees. Next, I found of a range of values that would make the car move forward and backwards (x), and also left and right (y). I plugged these values into my code to recieve readings such as: "Move Forward," "Move Left." 
 
-```arduino
+```C++
 #include<Wire.h>
 
 double x;
