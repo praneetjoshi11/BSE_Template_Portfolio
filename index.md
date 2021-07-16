@@ -13,7 +13,75 @@ My final milestone is the increased reliability and accuracy of my robot. I amel
 [![Final Milestone](https://res.cloudinary.com/marcomontalbano/image/upload/v1612573869/video_to_markdown/images/youtube--F7M7imOVGug-c05b58ac6eb4c4700831b2b3070cd403.jpg )](https://www.youtube.com/watch?v=F7M7imOVGug&feature=emb_logo "Final Milestone"){:target="_blank" rel="noopener"}
 
 # Second Milestone
-My second milestone was soldering the MPU6050 accelerometer and connecting it with a second ESP 32 microcontroller to recieve readings based on gestures made in the x, y, and z axes. Since the accelerometer also had a 3-axis gyroscope built in it, I was able to obtain both the rotational velocity and the angle of tilt in the 3 axes. Upon getting readings in the serial monitor of the Arduino IDE, I changed the unit of "radians" to "degrees" as it was easier to find a range of values in degrees. Next, I found of a range of values that would make the car move forward and backwards (x), and also left and right (y). I plugged these values into my code to recieve readings such as: "Move Forward," "Move Left."  
+My second milestone was soldering the MPU6050 accelerometer and connecting it with a second ESP 32 microcontroller to recieve readings based on gestures made in the x, y, and z axes. Since the accelerometer also had a 3-axis gyroscope built in it, I was able to obtain both the rotational velocity and the angle of tilt in the 3 axes. Upon getting readings in the serial monitor of the Arduino IDE, I changed the unit of "radians" to "degrees" as it was easier to find a range of values in degrees. Next, I found of a range of values that would make the car move forward and backwards (x), and also left and right (y). I plugged these values into my code to recieve readings such as: "Move Forward," "Move Left." 
+
+```Arduino
+#include<Wire.h>
+
+double x;
+double y;
+double z;
+
+// Converting to Degrees
+
+x= RAD_TO_DEG * (atan2(-yAng, -zAng)+PI);
+y= RAD_TO_DEG * (atan2(-xAng, -zAng)+PI);
+z= RAD_TO_DEG * (atan2(-yAng, -xAng)+PI);
+
+// Move Forward
+
+if(y >=30&&y <=80) {
+
+Serial.println("Move Forward ");
+Serial.println(y);
+
+}
+
+// Move Backward
+
+else if(y >=300&&y <=325) { 
+
+Serial.println("Move Backwards ");
+Serial.println(y);
+
+}
+
+// Move Left
+
+else if (x >=30&&x <= 65) {
+
+Serial.println("Move Left ");
+Serial.println(x);
+
+}
+
+// Move Right
+
+else if (x >270&&x<=297) {
+
+Serial.println("Move Right ");
+Serial.println(x); 
+}
+
+
+else {
+
+Serial.println("Stop");
+Serial.println(x);
+Serial.println(y);
+
+}
+
+// Z Direction
+Serial.print("AngleZ= ");
+Serial.println(z);
+
+Serial.println("-----------------------------------------");
+delay(5000);
+
+}
+
+``` 
 
 [![Third Milestone](https://res.cloudinary.com/marcomontalbano/image/upload/v1612574014/video_to_markdown/images/youtube--y3VAmNlER5Y-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://www.youtube.com/watch?v=y3VAmNlER5Y&feature=emb_logo "Second Milestone"){:target="_blank" rel="noopener"}
 # First Milestone
