@@ -84,6 +84,8 @@ delay(5000);
 ``` 
 
 ![image](https://user-images.githubusercontent.com/87200454/125982851-67813d3a-6058-4a32-bf54-c537393f99d8.png)
+![image](https://user-images.githubusercontent.com/87200454/125985781-1230672c-6a50-4357-98f4-0e968eb8aed4.png)
+![image](https://user-images.githubusercontent.com/87200454/125986090-47644f70-732d-4c70-8e0e-c1ea77352339.png) 
 
 
 [![Third Milestone](https://res.cloudinary.com/marcomontalbano/image/upload/v1612574014/video_to_markdown/images/youtube--y3VAmNlER5Y-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://www.youtube.com/watch?v=y3VAmNlER5Y&feature=emb_logo "Second Milestone"){:target="_blank" rel="noopener"}
