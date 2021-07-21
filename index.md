@@ -78,7 +78,7 @@ Serial.println(y);
 // Z Direction
 Serial.print("AngleZ= ");
 Serial.println(z);
-
+ 
 Serial.println("-----------------------------------------");
 delay(5000);
 
