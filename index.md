@@ -13,6 +13,9 @@ My final milestone is the increased reliability and accuracy of my robot. I amel
 [![Final Milestone](https://res.cloudinary.com/marcomontalbano/image/upload/v1612573869/video_to_markdown/images/youtube--F7M7imOVGug-c05b58ac6eb4c4700831b2b3070cd403.jpg )](https://www.youtube.com/watch?v=F7M7imOVGug&feature=emb_logo "Final Milestone"){:target="_blank" rel="noopener"}
 
 # Second Milestone
+
+[![Praneet's Second Milestone](https://res.cloudinary.com/marcomontalbano/image/upload/v1626887903/video_to_markdown/images/youtube--jH0zZHIjaTw-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://www.youtube.com/watch?v=jH0zZHIjaTw "Praneet's Second Milestone"){:target="_blank" rel="noopener"}
+
 My second milestone was soldering the MPU6050 accelerometer and connecting it with a second ESP 32 microcontroller to recieve readings based on gestures made in the x, y, and z axes. Since the accelerometer also had a 3-axis gyroscope built in it, I was able to obtain both the rotational velocity and the angle of tilt in the 3 axes. Upon getting readings in the serial monitor of the Arduino IDE, I changed the unit of "radians" to "degrees" as it was easier to find a range of values in degrees. Next, I found of a range of values that would make the car move forward and backwards (x), and also left and right (y). I plugged these values into my code to recieve readings such as: "Move Forward," "Move Left." Lastly, I was able to connect the two ESP 32 microcontrollers using the "TwoWayESP" library. 
 
 ```C++
@@ -88,10 +91,14 @@ delay(5000);
 ![image](https://user-images.githubusercontent.com/87200454/125986090-47644f70-732d-4c70-8e0e-c1ea77352339.png) 
 
 
-[![Third Milestone](https://res.cloudinary.com/marcomontalbano/image/upload/v1612574014/video_to_markdown/images/youtube--y3VAmNlER5Y-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://www.youtube.com/watch?v=y3VAmNlER5Y&feature=emb_logo "Second Milestone"){:target="_blank" rel="noopener"}
 # First Milestone
-  
+
+
+[![Praneet's First Milestone](https://res.cloudinary.com/marcomontalbano/image/upload/v1626887792/video_to_markdown/images/youtube--JqKNtSrtwxY-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://www.youtube.com/watch?v=JqKNtSrtwxY "Praneet's First Milestone"){:target="_blank" rel="noopener"}
+
 
 My first milestone was setting up and hooking up the Raspberry Pi and all the necessary components onto my tv. The heatsinks, the sd card, and the controller were all added to ensure that the Raspberry Pi was working. Instead of the Raspberry Pi Os software, I had to first download a different software called Retro Pie. With Retro Pie, I needed to download an Imager for Raspberry Pi. Raspberry Pi Imager automatically downloads a list of the latest versions of Raspbian supported by the Raspberry Pi. Raspbian is the typical Raspberry Pi Os software, the one I needed on the Raspberry Pi was Retro Pi. With the included SD card, I plugged in the SD into my computer and launched the Imager. The imager allowed me to set the Operating System to Retro Pi instead of Raspbian onto the SD card. With the OS imaged onto the SD, I plugged the SD card back into the Raspberry Pi and rebooted the system and Retro Bi booted up.
 
-[![First Milestone](https://res.cloudinary.com/marcomontalbano/image/upload/v1612574117/video_to_markdown/images/youtube--CaCazFBhYKs-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://www.youtube.com/watch?v=CaCazFBhYKs "First Milestone"){:target="_blank" rel="noopener"}
+
+
+
