@@ -9,7 +9,7 @@ Hello! My name is Praneet and at BSE this summer, I will be working on a gesture
 
 # Reflection
 
-[![Praneet J Demo Night](https://res.cloudinary.com/marcomontalbano/image/upload/v1627059933/video_to_markdown/images/youtube--I-eKRMAHUe4-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://www.youtube.com/watch?v=I-eKRMAHUe4 "Praneet J Demo Night")
+[![Praneet J Demo Night](https://res.cloudinary.com/marcomontalbano/image/upload/v1627059933/video_to_markdown/images/youtube--I-eKRMAHUe4-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://www.youtube.com/watch?v=I-eKRMAHUe4 "Praneet J Demo Night"){:target="_blank" rel="noopener"}
 
 Reflecting on the last 3 weeks of BSE, I feel a lot more confident as finishing such a project, both code and hands-on based, in a span of 3 weeks is something I would not have imagined doing. However, upon finishing this project, I have now expanded my vision and have set some goals for myself to become a better, and more confident engineer. These goals include finishing the Gesture Controlled car by adding an Ultrasonic sensor which will detect an obstacle by emitting a high frequency sound and receiving it in a certain time which will then be used to calculate the distance, learning more about the ESP 32 microcontroller and what it has to offer, and getting started on a bigger, more intense project. 
 
