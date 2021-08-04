@@ -5,7 +5,8 @@ Hello! My name is Praneet and at BSE this summer, I will be working on a gesture
 |:--:|:--:|:--:|:--:|
 | Praneet Joshi | Irvington High School | Electrical and Computer Engineering | Incoming Junior
 
-![Headstone Image](https://bluestampengineering.com/wp-content/uploads/2016/05/improve.jpg)
+![Headstone Image](![image](https://user-images.githubusercontent.com/87200454/128249376-6426300f-846f-4893-9668-f2f41dc3f7f8.png)
+
 
 # Reflection
 
