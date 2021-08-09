@@ -16,9 +16,11 @@ Reflecting on the last 3 weeks of BSE, I feel a lot more confident as finishing 
 
 # Final Milestone
 
+[![Praneet's Final Milestone](https://res.cloudinary.com/marcomontalbano/image/upload/v1628527819/video_to_markdown/images/youtube--Y2DjsH2KBuw-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://www.youtube.com/watch?v=Y2DjsH2KBuw "Praneet's Final Milestone"){:target="_blank" rel="noopener"}
+
 My final milestone was creating a "sender" file and a "reciever" file respective to the sender ESP (on-hand) and the reciever ESP (on-car) while exchanging their MAC IDs in the Arduino IDE and uploading each file of code to its corresponding ESP 32 microcontroller. This process was a bit difficult as I had to combine some of the files I had made previosuly that gave me readings, functioned the motors, etc. Nevertheless, upon figuring this out, I was able to write the code that the sender should recieve and the code that the reciever should recieve. Once this happened, all I had to do was supply power to the two ESP 32s to enable them. I used two portable chargers for this and the outcome was the car responding to my hand gestures by moving in the direction I made the gesture for. 
 
-[![Final Milestone](https://res.cloudinary.com/marcomontalbano/image/upload/v1612573869/video_to_markdown/images/youtube--F7M7imOVGug-c05b58ac6eb4c4700831b2b3070cd403.jpg )](https://www.youtube.com/watch?v=F7M7imOVGug&feature=emb_logo "Final Milestone"){:target="_blank" rel="noopener"}
+
 
 # Second Milestone
 
